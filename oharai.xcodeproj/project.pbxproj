@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1778FE0A200B2A9600272916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE09200B2A9600272916 /* AppDelegate.swift */; };
+		1778FE0C200B2A9600272916 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE0B200B2A9600272916 /* ViewController.swift */; };
+		1778FE0F200B2A9600272916 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1778FE0D200B2A9600272916 /* Main.storyboard */; };
+		1778FE11200B2A9600272916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1778FE10200B2A9600272916 /* Assets.xcassets */; };
+		1778FE14200B2A9600272916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1778FE12200B2A9600272916 /* LaunchScreen.storyboard */; };
+		1778FE1F200B2A9600272916 /* oharaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE1E200B2A9600272916 /* oharaiTests.swift */; };
+		1778FE2A200B2A9600272916 /* oharaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE29200B2A9600272916 /* oharaiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1778FE1B200B2A9600272916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1778FDFE200B2A9500272916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1778FE05200B2A9600272916;
+			remoteInfo = oharai;
+		};
+		1778FE26200B2A9600272916 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1778FDFE200B2A9500272916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1778FE05200B2A9600272916;
+			remoteInfo = oharai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1778FE06200B2A9600272916 /* oharai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oharai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1778FE09200B2A9600272916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1778FE0B200B2A9600272916 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1778FE0E200B2A9600272916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1778FE10200B2A9600272916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1778FE13200B2A9600272916 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1778FE15200B2A9600272916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1778FE1A200B2A9600272916 /* oharaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oharaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1778FE1E200B2A9600272916 /* oharaiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oharaiTests.swift; sourceTree = "<group>"; };
+		1778FE20200B2A9600272916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1778FE25200B2A9600272916 /* oharaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oharaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1778FE29200B2A9600272916 /* oharaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oharaiUITests.swift; sourceTree = "<group>"; };
+		1778FE2B200B2A9600272916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1778FE03200B2A9600272916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE17200B2A9600272916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE22200B2A9600272916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1778FDFD200B2A9500272916 = {
+			isa = PBXGroup;
+			children = (
+				1778FE08200B2A9600272916 /* oharai */,
+				1778FE1D200B2A9600272916 /* oharaiTests */,
+				1778FE28200B2A9600272916 /* oharaiUITests */,
+				1778FE07200B2A9600272916 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1778FE07200B2A9600272916 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1778FE06200B2A9600272916 /* oharai.app */,
+				1778FE1A200B2A9600272916 /* oharaiTests.xctest */,
+				1778FE25200B2A9600272916 /* oharaiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1778FE08200B2A9600272916 /* oharai */ = {
+			isa = PBXGroup;
+			children = (
+				1778FE09200B2A9600272916 /* AppDelegate.swift */,
+				1778FE0B200B2A9600272916 /* ViewController.swift */,
+				1778FE0D200B2A9600272916 /* Main.storyboard */,
+				1778FE10200B2A9600272916 /* Assets.xcassets */,
+				1778FE12200B2A9600272916 /* LaunchScreen.storyboard */,
+				1778FE15200B2A9600272916 /* Info.plist */,
+			);
+			path = oharai;
+			sourceTree = "<group>";
+		};
+		1778FE1D200B2A9600272916 /* oharaiTests */ = {
+			isa = PBXGroup;
+			children = (
+				1778FE1E200B2A9600272916 /* oharaiTests.swift */,
+				1778FE20200B2A9600272916 /* Info.plist */,
+			);
+			path = oharaiTests;
+			sourceTree = "<group>";
+		};
+		1778FE28200B2A9600272916 /* oharaiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1778FE29200B2A9600272916 /* oharaiUITests.swift */,
+				1778FE2B200B2A9600272916 /* Info.plist */,
+			);
+			path = oharaiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1778FE05200B2A9600272916 /* oharai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1778FE2E200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharai" */;
+			buildPhases = (
+				1778FE02200B2A9600272916 /* Sources */,
+				1778FE03200B2A9600272916 /* Frameworks */,
+				1778FE04200B2A9600272916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = oharai;
+			productName = oharai;
+			productReference = 1778FE06200B2A9600272916 /* oharai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1778FE19200B2A9600272916 /* oharaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1778FE31200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharaiTests" */;
+			buildPhases = (
+				1778FE16200B2A9600272916 /* Sources */,
+				1778FE17200B2A9600272916 /* Frameworks */,
+				1778FE18200B2A9600272916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1778FE1C200B2A9600272916 /* PBXTargetDependency */,
+			);
+			name = oharaiTests;
+			productName = oharaiTests;
+			productReference = 1778FE1A200B2A9600272916 /* oharaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1778FE24200B2A9600272916 /* oharaiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1778FE34200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharaiUITests" */;
+			buildPhases = (
+				1778FE21200B2A9600272916 /* Sources */,
+				1778FE22200B2A9600272916 /* Frameworks */,
+				1778FE23200B2A9600272916 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1778FE27200B2A9600272916 /* PBXTargetDependency */,
+			);
+			name = oharaiUITests;
+			productName = oharaiUITests;
+			productReference = 1778FE25200B2A9600272916 /* oharaiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1778FDFE200B2A9500272916 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Takemura Asuka";
+				TargetAttributes = {
+					1778FE05200B2A9600272916 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1778FE19200B2A9600272916 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1778FE05200B2A9600272916;
+					};
+					1778FE24200B2A9600272916 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1778FE05200B2A9600272916;
+					};
+				};
+			};
+			buildConfigurationList = 1778FE01200B2A9500272916 /* Build configuration list for PBXProject "oharai" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1778FDFD200B2A9500272916;
+			productRefGroup = 1778FE07200B2A9600272916 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1778FE05200B2A9600272916 /* oharai */,
+				1778FE19200B2A9600272916 /* oharaiTests */,
+				1778FE24200B2A9600272916 /* oharaiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1778FE04200B2A9600272916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1778FE14200B2A9600272916 /* LaunchScreen.storyboard in Resources */,
+				1778FE11200B2A9600272916 /* Assets.xcassets in Resources */,
+				1778FE0F200B2A9600272916 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE18200B2A9600272916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE23200B2A9600272916 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1778FE02200B2A9600272916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1778FE0C200B2A9600272916 /* ViewController.swift in Sources */,
+				1778FE0A200B2A9600272916 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE16200B2A9600272916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1778FE1F200B2A9600272916 /* oharaiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1778FE21200B2A9600272916 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1778FE2A200B2A9600272916 /* oharaiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1778FE1C200B2A9600272916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1778FE05200B2A9600272916 /* oharai */;
+			targetProxy = 1778FE1B200B2A9600272916 /* PBXContainerItemProxy */;
+		};
+		1778FE27200B2A9600272916 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1778FE05200B2A9600272916 /* oharai */;
+			targetProxy = 1778FE26200B2A9600272916 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1778FE0D200B2A9600272916 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1778FE0E200B2A9600272916 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1778FE12200B2A9600272916 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1778FE13200B2A9600272916 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1778FE2C200B2A9600272916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1778FE2D200B2A9600272916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1778FE2F200B2A9600272916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1778FE30200B2A9600272916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1778FE32200B2A9600272916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oharai.app/oharai";
+			};
+			name = Debug;
+		};
+		1778FE33200B2A9600272916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharaiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/oharai.app/oharai";
+			};
+			name = Release;
+		};
+		1778FE35200B2A9600272916 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = oharai;
+			};
+			name = Debug;
+		};
+		1778FE36200B2A9600272916 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = oharaiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharaiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = oharai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1778FE01200B2A9500272916 /* Build configuration list for PBXProject "oharai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1778FE2C200B2A9600272916 /* Debug */,
+				1778FE2D200B2A9600272916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1778FE2E200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1778FE2F200B2A9600272916 /* Debug */,
+				1778FE30200B2A9600272916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1778FE31200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1778FE32200B2A9600272916 /* Debug */,
+				1778FE33200B2A9600272916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1778FE34200B2A9600272916 /* Build configuration list for PBXNativeTarget "oharaiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1778FE35200B2A9600272916 /* Debug */,
+				1778FE36200B2A9600272916 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1778FDFE200B2A9500272916 /* Project object */;
+}
