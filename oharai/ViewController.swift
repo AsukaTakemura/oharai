@@ -9,17 +9,37 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override var canBecomeFirstResponder: Bool { get { return true } }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.becomeFirstResponder()
     }
-
-
+    
+    override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == UIEventSubtype.motionShake {
+            print("  SHAKE!!")
+        }
+    }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == UIEventSubtype.motionShake {
+            print("  SHAKE!!!")
+        }
+    }
+    
+    override func motionCancelled(_ motion: UIEventSubtype, with event: UIEvent?) {
+        if motion == UIEventSubtype.motionShake {
+            print("  SHAKE!!!")
+        }
+    }
+   
 }
 
