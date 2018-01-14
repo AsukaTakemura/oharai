@@ -14,6 +14,9 @@
 		1778FE14200B2A9600272916 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1778FE12200B2A9600272916 /* LaunchScreen.storyboard */; };
 		1778FE1F200B2A9600272916 /* oharaiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE1E200B2A9600272916 /* oharaiTests.swift */; };
 		1778FE2A200B2A9600272916 /* oharaiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1778FE29200B2A9600272916 /* oharaiUITests.swift */; };
+		E238F410200B3F8500ED888C /* 1-bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E238F40E200B3F8400ED888C /* 1-bell.mp3 */; };
+		E238F411200B3F8500ED888C /* 1-success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E238F40F200B3F8400ED888C /* 1-success.mp3 */; };
+		E238F413200B3F9000ED888C /* 1-fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E238F412200B3F8F00ED888C /* 1-fail.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		1778FE25200B2A9600272916 /* oharaiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oharaiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1778FE29200B2A9600272916 /* oharaiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oharaiUITests.swift; sourceTree = "<group>"; };
 		1778FE2B200B2A9600272916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E238F40E200B3F8400ED888C /* 1-bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-bell.mp3"; sourceTree = "<group>"; };
+		E238F40F200B3F8400ED888C /* 1-success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-success.mp3"; sourceTree = "<group>"; };
+		E238F412200B3F8F00ED888C /* 1-fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "1-fail.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		1778FE08200B2A9600272916 /* oharai */ = {
 			isa = PBXGroup;
 			children = (
+				E238F40E200B3F8400ED888C /* 1-bell.mp3 */,
+				E238F412200B3F8F00ED888C /* 1-fail.mp3 */,
+				E238F40F200B3F8400ED888C /* 1-success.mp3 */,
 				1778FE09200B2A9600272916 /* AppDelegate.swift */,
 				1778FE0B200B2A9600272916 /* ViewController.swift */,
 				1778FE0D200B2A9600272916 /* Main.storyboard */,
@@ -232,8 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E238F413200B3F9000ED888C /* 1-fail.mp3 in Resources */,
 				1778FE14200B2A9600272916 /* LaunchScreen.storyboard in Resources */,
+				E238F410200B3F8500ED888C /* 1-bell.mp3 in Resources */,
 				1778FE11200B2A9600272916 /* Assets.xcassets in Resources */,
+				E238F411200B3F8500ED888C /* 1-success.mp3 in Resources */,
 				1778FE0F200B2A9600272916 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M53G2X4922;
+				DEVELOPMENT_TEAM = P5CHNP54QT;
 				INFOPLIST_FILE = oharai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharai;
@@ -442,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M53G2X4922;
+				DEVELOPMENT_TEAM = P5CHNP54QT;
 				INFOPLIST_FILE = oharai/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.asukaapp.oharai;
