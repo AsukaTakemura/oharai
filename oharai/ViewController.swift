@@ -7,13 +7,36 @@
 //
 
 import UIKit
+import AVFoundation
+
 
 class ViewController: UIViewController {
+    var bellAudioPlayer: AVAudioPlayer = AVAudioPlayer()
+    var failAudioPlayer: AVAudioPlayer = AVAudioPlayer()
+    var successAudioPlayer: AVAudioPlayer = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        bellAudioPlayer = setSE(seName: "1-bell")
+        failAudioPlayer = setSE(seName: "1-fail")
+        successAudioPlayer = setSE(seName: "1-success")
+    }
+    func setSE(seName: String) -> AVAudioPlayer {
+        var audioPlayer: AVAudioPlayer = AVAudioPlayer()
+        // サウンドファイルのパスを生成
+        let soundFilePath = Bundle.main.path(forResource: seName, ofType: "mp3")!
+        let sound:URL = URL(fileURLWithPath: soundFilePath)
+        // AVAudioPlayerのインスタンスを作成
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: sound, fileTypeHint:nil)
+        } catch {
+            print("AVAudioPlayerインスタンス作成失敗")
+        }
+        // バッファに保持していつでも再生できるようにする
+        audioPlayer.prepareToPlay()
         
+        return audioPlayer
     }
 
     override var canBecomeFirstResponder: Bool { get { return true } }
@@ -25,13 +48,23 @@ class ViewController: UIViewController {
     
     override func motionBegan(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == UIEventSubtype.motionShake {
-            print("  SHAKE!!")
+            bellAudioPlayer.play()
         }
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
         if motion == UIEventSubtype.motionShake {
-            print("  SHAKE!!!")
+            let _ = Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false, block: { (_) in
+                let random = Int(arc4random_uniform(10))
+                
+                if random < 8 {
+                    
+                    self.successAudioPlayer.play()
+                } else {
+                    
+                    self.failAudioPlayer.play()
+                }
+            })
         }
     }
     
