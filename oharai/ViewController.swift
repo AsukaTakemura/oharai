@@ -58,11 +58,17 @@ class ViewController: UIViewController {
                 let random = Int(arc4random_uniform(10))
                 
                 if random < 8 {
-                    
                     self.successAudioPlayer.play()
+                    let storyboard: UIStoryboard = self.storyboard!
+                    let successView = storyboard.instantiateViewController(withIdentifier: "success") as! SuccessViewController
+                    self.present(successView, animated: true, completion: nil)
+                   
                 } else {
-                    
                     self.failAudioPlayer.play()
+                    let storyboard: UIStoryboard = self.storyboard!
+                    let failureView = storyboard.instantiateViewController(withIdentifier: "failure") as! FailureViewController
+                    self.present(failureView, animated: true, completion: nil)
+                    
                 }
             })
         }
